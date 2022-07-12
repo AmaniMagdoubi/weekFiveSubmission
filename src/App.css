@@ -1,3 +1,86 @@
 * {
-    background-color: aqua;
+    background-color: #F7EDDB;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+
+.Slogan {
+    background-color: #91C499;
+    display: flex;
+    justify-content: center;
+}
+
+.List-Name {
+    background-color: #8B728E;
+    display: flex;
+    justify-content: center;
+}
+
+.Todo-Input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    background-color: white;
+    padding: 20px;
+    border: 8px solid #8B728E;
+    margin: 20px;
+    
+}
+
+.Btn-Add-Item {
+    background-color: #91C499;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 5px solid #8B728E;
+}
+
+.Btn-Add-Item:hover {
+    background-color: white;
+    color: #91C499;
+    border: 5px solid #91C499;
+}
+
+.Btn-Delete {
+    background-color: #FAA0A0;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: 5px solid #8B728E;
+}
+
+.Btn-Delete:hover {
+    background-color: white;
+    color: #FAA0A0; 
+    border: 5px solid #FAA0A0;
+}
+
+.Btn-Complete {
+    background-color: #91C499;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: 5px solid #8B728E;
+}
+
+.Btn-Complete:hover {
+    background-color: white;
+    color: #91C499; 
+    border: 5px solid #91C499;
 }
